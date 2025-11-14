@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API testing get Users">
+
+<listeners>
+        <listener class-name="utils.RetryListener"/>
+  </listeners>
+  <test name="API Tests">
+    <classes>
+      <class name="userManagement.getUsers" />
+    </classes>      
+  </test>
+      
+ 
+</suite>
