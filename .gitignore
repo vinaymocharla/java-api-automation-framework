@@ -1,1 +1,7 @@
+.classpath
+.project
+module-info.java
+.settings/
+bin/
+*.class
 /target/
